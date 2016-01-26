@@ -87,7 +87,7 @@ Since text at background usually span a longer width than its containing space, 
 * Mozilla Firefox (latest)
 * Apple Safari (latest)
 * Microsoft Edge (latest)
-* Internet Explorer (9+ with no transition effect)
+* Internet Explorer (9+, IE9 has no transition effect)
 * Opera (Testing)
 * Android Browser (latest)
 * Google Chrome on Android (latest)
@@ -95,6 +95,8 @@ Since text at background usually span a longer width than its containing space, 
 * Google Chrome on iOS (latest)
   
 ## History
+* 27 Jan, 2016, Version 1.0.0
+  * Rebuild repository
 * 12 Jan, 2016, Version 1.0.0
   * First published
   
