@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Toggle Checkbox using Pure HTML and CSS3 Demo Page</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" type="text/css">
+    <link href="../css/toggle-checkbox.css" rel="stylesheet" type="text/css" />
+    <style>
+        body {
+            padding-right: 15px;
+            padding-left: 15px;
+            font-family: 'Open Sans', sans-serif;
+            background-color: #F3F5F6;
+        }
+    </style>
+</head>
+<body>
+    <h1>Toggle Checkbox using Pure HTML and CSS3 Demo Page</h1>
+    Simple Toggle Checkbox<br />
+    <label class="toggle-checkbox">
+        <input type="checkbox" />
+        <div class="toggle-bg"><div class="toggle-btn"></div></div>
+    </label>
+    
+    <br /><br />
+
+    <b>Wider</b> Toggle Checkbox <b>(with Auto-Height Calculation)</b><br />
+    <style>
+        #wider-toggle-checkbox .toggle-bg {
+            width: 100px;
+        }
+    </style>
+    <label id="wider-toggle-checkbox" class="toggle-checkbox">
+        <input type="checkbox" />
+        <div class="toggle-bg"><div class="toggle-btn"></div></div>
+    </label>
+    
+    <br /><br />
+
+    <b>Custom Layout</b> Toggle Checkbox<br />
+    <style>
+        #customlayout-toggle-checkbox > .toggle-bg {
+            border: 1px solid #009688;
+            background-color: #FFF;
+        }
+        #customlayout-toggle-checkbox > input[type=checkbox]:checked + .toggle-bg {
+            border: 1px solid #009688;
+            background-color: #FFF;
+        }
+        #customlayout-toggle-checkbox > .toggle-bg > .toggle-btn {
+            border: 1px solid #FFF;
+            background-color: #009688;
+        }
+        #customlayout-toggle-checkbox > input[type=checkbox]:checked + .toggle-bg > .toggle-btn {
+            border: 1px solid #FFF;
+            background-color: #009688;
+        }
+    </style>
+    <label id="customlayout-toggle-checkbox" class="toggle-checkbox">
+        <input type="checkbox" />
+        <div class="toggle-bg"><div class="toggle-btn"></div></div>
+    </label>
+    
+    <br /><br />
+
+    <b>Wider Fixed Height</b> Toggle Checkbox<br />
+    <style>
+        #fixedheight-toggle-checkbox > .toggle-bg {
+            width: 150px;
+            height: 25px;
+        }
+    </style>
+    <label id="fixedheight-toggle-checkbox" class="toggle-checkbox toggle-fixedheight">
+        <input type="checkbox" />
+        <div class="toggle-bg"><div class="toggle-btn"></div></div>
+    </label>
+
+    <br /><br />
+
+    Wider Fixed Height Toggle Checkbox with <b>Fixed Text</b> inside button<br />
+    <style>
+        #fixedheight-toggle-checkbox-textbtn > .toggle-bg {
+            width: 150px;
+            height: 25px;
+            line-height: 25px;
+        }
+    </style>
+    <label id="fixedheight-toggle-checkbox-textbtn" class="toggle-checkbox toggle-fixedheight">
+        <input type="checkbox" />
+        <div class="toggle-bg"><div class="toggle-btn">O</div></div>
+    </label>
+
+    <br /><br />
+
+    Wider Fixed Height Toggle Checkbox with <b>Dynamic Text</b> inside button<br />
+    <style>
+        #fixedheight-toggle-checkbox-dynamictextbtn > .toggle-bg {
+            width: 150px;
+            height: 25px;
+            line-height: 25px;
+        }
+    </style>
+    <label id="fixedheight-toggle-checkbox-dynamictextbtn" class="toggle-checkbox toggle-fixedheight">
+        <input type="checkbox" />
+        <div class="toggle-bg">
+            <div class="toggle-btn">
+                <span class="toggle-btn-yes">Y</span>
+                <span class="toggle-btn-no">N</span>
+            </div>
+        </div>
+    </label>
+
+    <br /><br />
+
+    Wider Fixed Height Toggle Checkbox with <b>Text in background</b><br />
+    <style>
+        #fixedheight-toggle-checkbox-with-text > .toggle-bg {
+            width: 150px;
+            height: 30px;
+            line-height: 30px;
+        }
+    </style>
+    <label id="fixedheight-toggle-checkbox-with-text" class="toggle-checkbox toggle-fixedheight">
+        <input type="checkbox" />
+        <div class="toggle-bg">
+            <span class="toggle-bg-texton">On</span>
+            <div class="toggle-btn"></div>
+            <span class="toggle-bg-textoff">Off</span>
+        </div>
+    </label>
+</body>
+</html>
