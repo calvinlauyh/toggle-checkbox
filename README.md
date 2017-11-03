@@ -101,5 +101,5 @@ Since text at background usually span a longer width than its containing space, 
   * First published
   
 ## License
-Copyright (c) Lau Yu Hei  
+Copyright (c) Yu H. 
 Published under The MIT License (MIT)
