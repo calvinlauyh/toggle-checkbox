@@ -1,7 +1,7 @@
 # Toggle-Checkbox using Pure HTML and CSS3
-![Demo Gif](http://yuhlau.github.io/toggle-checkbox/demo.gif)  
+![Demo Gif](https://calvinlauco.github.io/toggle-checkbox/demo.gif)  
 Toggle-Checkbox is a mobile-like toggle switch on Webpages based on purely HTML and CSS3. It is based on checkbox input so you can capture its value just like normal form input. You can also easily change its layout using simply HTML and CSS. It supports most of the modern desktop and mobile browsers. For more specific information, plesase have a look at the Browser Support section.  
-[Demo Page](http://yuhlau.github.io/toggle-checkbox/)  
+[Demo Page](https://calvinlauco.github.io/toggle-checkbox/)  
   
 If you need to support older browsers or want flexibility in more details, I am planing on a jQuery version. Please stay tuned and I will update this section when it is published.  
 ## Features
